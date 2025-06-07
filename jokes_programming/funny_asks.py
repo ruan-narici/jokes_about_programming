@@ -45,6 +45,48 @@ def ask() -> dict[str, str]:
             "correct_response": "O JOINt-venture!",
             "want_to_continue": "Se quiser mais, é só falar!",
         },
+        {
+            "an_ask": "Por que o programador levou o computador pra academia?",
+            "funny_response": "Porque até o PC queria ficar 'fit' pra rodar código pesado!",
+            "correct_response": "Pra melhorar a performance e o processamento.",
+            "want_to_continue": "Quer mais piada pra dar push nessa branch?",
+        },
+        {
+            "an_ask": "O que um algoritmo disse pra outro que estava lento?",
+            "funny_response": "Calma, tô só rodando no modo 'soneca'... Zzz",
+            "correct_response": "Você precisa otimizar seu tempo de execução!",
+            "want_to_continue": "Quer outra otimizada na zoeira?",
+        },
+        {
+            "an_ask": "Por que o frontend se dá mal no mundo real?",
+            "funny_response": "Porque ele só sabe lidar com interfaces, mas não com problemas reais!",
+            "correct_response": "Porque frontend cuida só da interface visual, não do backend ou lógica complexa.",
+            "want_to_continue": "Quer mais um bug de humor?",
+        },
+        {
+            "an_ask": "Qual é o medo do programador em um relacionamento?",
+            "funny_response": "Ficar preso no 'loop infinito' de discussões!",
+            "correct_response": "Medo de ficar preso em discussões que nunca acabam.",
+            "want_to_continue": "Quer dar commit nessa próxima piada?",
+        },
+        {
+            "an_ask": "Por que os dados ficaram bravos com o cientista de dados?",
+            "funny_response": "Porque ele ficava demais tentando extrair segredos íntimos!",
+            "correct_response": "Porque o cientista fazia muitas análises exploratórias revelando tudo.",
+            "want_to_continue": "Mais uma análise de humor?",
+        },
+        {
+            "an_ask": "Por que o código Python terminou com o código JavaScript?",
+            "funny_response": "Porque ele não aguentava mais tanta callback!",
+            "correct_response": "Porque JavaScript usa callbacks, que podem ser confusos e difíceis de gerenciar.",
+            "want_to_continue": "Quer mais drama de linguagens?",
+        },
+        {
+            "an_ask": "O que o DevOps falou pro programador desleixado?",
+            "funny_response": "Aqui não é lugar pra código largado, meu irmão!",
+            "correct_response": "Porque a cultura DevOps preza por automação, qualidade e organização.",
+            "want_to_continue": "Quer mais integração contínua de piadas?",
+        },
     ]
 
     random_ask = np.random.randint(low=0, high=(len(full_asks) - 1))
