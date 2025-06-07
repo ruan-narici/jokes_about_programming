@@ -1,3 +1,29 @@
+Metadata-Version: 2.4
+Name: jokes_programming
+Version: 0.1.2
+Summary: Piadas engraçadas sobre programação e dados.
+Home-page: https://github.com/ruan-narici/jokes_about_programming
+Author: Ruan Narici
+Project-URL: Source, https://github.com/ruan-narici/jokes_about_programming
+Project-URL: Bug Tracker, https://github.com/ruan-narici/jokes_about_programming/issues
+Keywords: piadas,programação,humor,dados,developer jokes
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # JOKES ABOUT PROGRAMMING
 
 Piadas engraçadas sobre programação e dados para dar aquela quebrada no tédio do dia a dia de dev.

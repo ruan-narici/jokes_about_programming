@@ -2,8 +2,6 @@ import numpy as np
 
 
 def ask() -> dict[str, str]:
-    random_ask = np.random.randint(low=0, high=6)
-
     full_asks = [
         {
             "an_ask": "Por que o Java foi ao terapeuta?",
@@ -48,5 +46,7 @@ def ask() -> dict[str, str]:
             "want_to_continue": "Se quiser mais, é só falar!",
         },
     ]
+
+    random_ask = np.random.randint(low=0, high=(len(full_asks) - 1))
 
     return full_asks[random_ask].values()  # type: ignore
