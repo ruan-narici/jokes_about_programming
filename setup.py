@@ -5,7 +5,7 @@ readme = Path("README.md").read_text(encoding="utf-8")
 
 setup(
     name="jokes_programming",
-    version="0.1.3",
+    version="1.0.0",
     packages=find_packages(),
     install_requires=["numpy"],
     entry_points={
